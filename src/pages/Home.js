@@ -6,10 +6,10 @@ const HomePage = () => {
     <Fragment>
       <h1>My Home Page.</h1>
       <p>
-        Link to <Link to="/products">the list of products page.</Link>
+        Link tag to <Link to="products">the list of products page.</Link>
       </p>
       <p>
-        HyperLink to <a href="/products">the list of products page.</a>
+        A tag to <a href="products">the list of products page.</a>
       </p>
     </Fragment>
   );
