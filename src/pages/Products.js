@@ -14,7 +14,7 @@ const Products = () => {
       <ul>
         {DUMMY_PRODUCT.map((item) => (
           <li key={item.id}>
-            <Link to={`/products/${item.id}`}>{item.title}</Link>
+            <Link to={item.id}>{item.title}</Link>
           </li>
         ))}
       </ul>
