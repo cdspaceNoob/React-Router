@@ -7,7 +7,7 @@ const ProductDetailPage = () => {
   return (
     <Fragment>
       <h1>Product Details</h1>
-      <h2>This Product Id: {params.productID}</h2>
+      <h2>This Product ID: {params.productID}</h2>
     </Fragment>
   );
 };
