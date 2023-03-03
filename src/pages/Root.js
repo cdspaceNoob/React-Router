@@ -7,10 +7,10 @@ const RootLayout = () => {
   return (
     <Fragment>
       <MainNavigation />
-      <main >
+      <main>
         <Outlet />
       </main>
-    </Fragment >
+    </Fragment>
   );
 };
 
