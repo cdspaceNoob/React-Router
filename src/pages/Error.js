@@ -1,17 +1,16 @@
 import { Fragment } from "react";
-import { Outlet } from "react-router-dom";
-
 import MainNavigation from "../components/MainNavigation";
 
-const RootLayout = () => {
+const ErrorPage = () => {
   return (
     <Fragment>
       <MainNavigation />
-      <main >
-        <Outlet />
+      <main>
+        <h1>Error Occured.</h1>
+        <p>Cannot Find Page.</p>
       </main>
-    </Fragment >
+    </Fragment>
   );
 };
 
-export default RootLayout;
+export default ErrorPage;
